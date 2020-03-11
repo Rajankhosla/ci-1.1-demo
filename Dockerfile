@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # [START dockerfile]
-FROM python:3.7-slim
+FROM python:3.8-slim
 RUN pip install flask
 WORKDIR /app
 COPY app.py /app/app.py
