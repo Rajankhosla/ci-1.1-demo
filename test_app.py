@@ -13,7 +13,7 @@
 # limitations under the License.
 
 import unittest
-from app import Hello
+from app import hello
 
 class TestHelloApp(unittest.TestCase):
 
