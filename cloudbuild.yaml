@@ -28,7 +28,7 @@ steps:
   args:
   - 'build'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/ci-1.1-demo:', '.'
+  - 'gcr.io/$PROJECT_ID/ci-1.1-demo:$SHORT_SHA'
   - '.'
 
 # This step pushes the image to Container Registry
